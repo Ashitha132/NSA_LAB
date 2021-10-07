@@ -8,6 +8,8 @@ echo "**    OS AND VERSION      **"
 cat /etc/os-release |head -n 2
 echo "**        KERNAL VERSION    **"
 uname -v
+echo "**      release number     **"
+uname -r
 echo "**       ALL AVAILABLE SHELLS   **"
 cat /etc/shells
 echo "**       FILESYSTEM MOUNTED      **"

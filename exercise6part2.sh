@@ -7,7 +7,7 @@
 echo "**    OS AND VERSION      **"
 cat /etc/os-release |head -n 2
 echo "**        KERNAL VERSION    **"
-uname -r
+uname -v
 echo "**       ALL AVAILABLE SHELLS   **"
 cat /etc/shells
 echo "**       FILESYSTEM MOUNTED      **"
